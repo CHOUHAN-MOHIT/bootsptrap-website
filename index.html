@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>MySpotify</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- side bar -->
+            <div class="col-2" style="background-color: #262e3a;">
+                <div class="d-flex justify-content-center mt-2"><img class=""
+                        src="https://img.icons8.com/fluency/64/000000/spotify.png" /></div>
+                <div class="list-group mt-3">
+                    <button type="button" class="list-group-item list-group-item-action"><img
+                            src="https://img.icons8.com/material-outlined/24/000000/home--v2.png" />Home</button>
+                    <button type="button" class="list-group-item list-group-item-action"><img
+                            src="https://img.icons8.com/ios-glyphs/24/000000/search--v2.png" />Search</button>
+                    <button type="button" class="list-group-item list-group-item-action"><img
+                            src="https://img.icons8.com/ios/24/000000/music-library--v1.png" />Library</button>
+                    <hr>
+                    <button type="button" class="list-group-item list-group-item-action"><img
+                            src="https://img.icons8.com/emoji/24/000000/red-heart.png" />Liked</button>
+                    <button type="button" class="list-group-item list-group-item-action"><img
+                            src="https://img.icons8.com/ios/24/000000/plus--v1.png" />Create Playlist</button>
+                    <hr>
+
+                </div>
+            </div>
+            <!-- content -->
+            <div class="col-8 px-0">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">My Spotify</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                            </ul>
+                            <img src="https://img.icons8.com/material-outlined/30/ffffff/user-male-circle.png" />
+                        </div>
+                    </div>
+                </nav>
+                <!-- trending -->
+                <div class="container-fluid" style="background-color: rgb(53, 31, 22);">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3 my-5 mx-auto text-light"
+                                style="max-width: 740px; background-color: rgb(92, 51, 34);">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="asssets/icons/thaa.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <span class="badge bg-info text-dark mx-1">New</span>
+                                                <span class="badge bg-info text-dark mx-1">Trending</span>
+                                                <span class="badge bg-info text-dark mx-1">Punjabi</span>
+                                            </p>
+                                            <h2 class="card-title">Thaa</h2>
+                                            <p class="card-text">
+                                                <i>Album: Thaa <br>
+                                                    Singer: Parmish Verma, Laddi Chahal<br>
+                                                    Lyricst: Laddi Chahal
+                                                </i>
+                                            </p>
+                                            <div class="d-flex flex-row">
+                                                <button type="button"
+                                                    class="btn btn-success rounded-pill mx-2 px-5">Play</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-success rounded-pill mx-1 px-5">Follow</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-auto"><img
+                                            src="https://img.icons8.com/color/80/000000/play-button-circled--v3.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- time specific -->
+                <div class="container-fluid py-2" style="background-color: rgb(44, 26, 19);">
+                    <h3 class="text-light">Good Afternoon</h3>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3" style="max-width: 440px; background-color: rgb(255, 153, 112);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster2.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Stranger</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(255, 112, 219, 0.863);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster7.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Angelina</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(112, 186, 255, 0.808);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster5.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>leave me</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(255, 112, 167, 0.918);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster4.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Bachalo</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(105, 248, 148, 0.897);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster1.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Rajya</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(188, 255, 112, 0.883);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster3.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Sardaarji 2</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(255, 241, 112, 0.931);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/poster6.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Nagan</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3"
+                                style="max-width: 440px; background-color: rgba(255, 193, 112, 0.931);">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="asssets/icons/quafirana.jpg" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <strong>Quafirana</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- recently played -->
+                <div class="container py-2" style="background-color: rgb(32, 22, 19);">
+                    <h3 class="text-light">Recently Played</h3>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/quafirana.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Quafirana</strong></h4>
+                                            <p class="text-secondary">song</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/poster2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Stranger</strong></h4>
+                                            <p class="text-secondary">Album</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/poster3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Sardaarji 2</strong></h4>
+                                            <p class="text-secondary">song</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- recommended -->
+                <div class="container" style="background-color: rgb(0, 0, 0);">
+                    <h3 class="text-light">Recomended For You</h3>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/poster4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Bachalo</strong></h4>
+                                            <p class="text-secondary">song</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/poster1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Rajya</strong></h4>
+                                            <p class="text-secondary">song</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="asssets/icons/poster6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h4><strong>Nagan</strong></h4>
+                                            <p class="text-secondary">song</p>
+                                        </div>
+                                        <div class="col-4"><a href="#"><img
+                                                    src="https://img.icons8.com/external-others-phat-plus/64/000000/external-arrow-arrows-color-line-others-phat-plus-7.png" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="background-color: #262e3a;">
+                <div class="my-2 text-light">
+                    <h5>friend activity</h5>
+                    <p class="text-secondary">connect to your friends to see what your friend are playing</p>
+                    <div class="d-grid gap-2">
+                        <button class="border-0 rounded-pill py-auto bg-primary" type="button"><img
+                                src="https://img.icons8.com/color/36/000000/facebook-new.png" />connect to
+                            facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
